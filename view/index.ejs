@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center">QR Code Generator</h1>
+      <hr />
+      <form action="/scan" method="POST">
+        <textarea
+          name="txt"
+          cols="150"
+          rows="10"
+          placeholder="Enter URL or Text"
+        >
+        </textarea
+        ><br />
+        <button
+          type="submit"
+          style="
+            background-color: rgb(71, 71, 197);
+            padding: 10px;
+            border: none;
+            outline: 0;
+            color: #fff;
+            font-weight: bold;
+            margin: 10px 0;
+          "
+        >
+          Generate QR Code
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
